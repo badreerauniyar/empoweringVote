@@ -16,32 +16,24 @@ const styles=StyleSheet.create({
     flex:1,
     display:'flex',
     justifyContent:'space-evenly',
-    flexDirection:'column'
+    alignItems:'center'
     },
     container3:{
       flex:1,
       
       display:'flex',
-      justifyContent:'space-between'
-    },
-    userNameContainer:{
-      display:'flex',
-      justifyContent:'center',
-      alignItems:'center'
-    },
-    whiteBox:{
-      width: "80%",
-      backgroundColor:"white",
-      height:50,
-      borderRadius:25,
-      display:'flex',
-      justifyContent:'center',
-      alignItems:'center',
-      backgroundColor:'#E9EBEE'
+      justifyContent:'space-between',
+     
     },
     inputText:{
-      fontSize:20,
+        height:55,
+        width:320,
+        borderRadius:25,
+        fontSize:20,
+     
       textAlign:'center',
+      backgroundColor:'black',
+     
     },
 
     LoginContainer:{

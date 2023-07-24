@@ -18,17 +18,13 @@ const loginpage=()=>{
                    <Image source={ empowerVoteLogo}></Image>
                 </View>
                 <View style={styles.container2}>
-                    <View style={styles.userNameContainer}>
-                        <View style={styles.whiteBox}>
-                            <TextInput style={styles.inputText} placeholder='User Name' onChangeText={setUserName} value={userName}/>
-                        </View>
-                    </View>
-
-                    <View style={styles.userNameContainer}>
-                        <View style={styles.whiteBox}>
-                        <TextInput style={styles.inputText} secureTextEntry={true} placeholder='Password' onChangeText={setPassword} value={password}/>
-                        </View>
-                    </View>
+                    
+                       
+                 <TextInput style={styles.inputText} placeholder='User Name'  placeholderTextColor="white" onChangeText={setUserName} value={userName}/>
+                       
+                <TextInput style={styles.inputText} secureTextEntry={true} placeholder='Password' placeholderTextColor="white" onChangeText={setPassword} value={password}/>
+                        
+                    
                 </View>
                 <View style={styles.container3}>
                     <View style={styles.LoginContainer}>

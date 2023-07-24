@@ -34,8 +34,8 @@ const [areaCode,setAreaCode]=useState("");
 
             <View style={styles.container2}>
                 <View>
-                    <TextInput style={styles.input} placeholder="Mobile Number" textAlign="center"></TextInput>
-                    <TextInput style={styles.input} placeholder="Country Code" textAlign="center">
+                    <TextInput style={styles.input} placeholder="Enter Mobile Number" textAlign="center"></TextInput>
+                    <TextInput style={styles.input} placeholder="Enter Country Code" textAlign="center">
                     </TextInput>
                 
                 </View>

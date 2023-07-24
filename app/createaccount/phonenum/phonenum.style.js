@@ -40,9 +40,9 @@ const styles=StyleSheet.create({
     input:{
         backgroundColor:'rgba(217, 217, 217, 0.5)',
         height:55,
-        width:318,
-        borderRadius:5,
-
+        width:320,
+        borderRadius:25,
+        fontSize:20,
         alignSelf:'center',
         borderColor:'black',
 

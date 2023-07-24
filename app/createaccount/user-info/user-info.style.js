@@ -4,28 +4,32 @@ import {StyleSheet} from 'react-native'
 const styles=StyleSheet.create({
     container:{
         flex:1,
-        backgroundColor:'#FFFFFF',
-        marginTop:41, 
+        justifyContent: 'space-evenly',
+        marginTop:25, 
     },
     container1:{
     flex: 1,
     justifyContent:'center',
 },
     container2:{
-        flex:1,
-        justifyContent:"space-evenly",
+        flex:9,
+        justifyContent:"space-between",
       alignItems:'center',
+      backgroundColor:'#FFFFFF',
+      
     },
 
     container3:{
         flex: 1,
         display:'flex',
         alignItems:'center',
-    },
+        justifyContent:'center',
+        marginBottom:5
+            },
+
     container1_1:{
         flex: 1,
-        paddingLeft:10 , 
-        display: "flex",
+        paddingLeft:10 ,
         justifyContent: "center",
 
     },
@@ -34,14 +38,20 @@ const styles=StyleSheet.create({
 
     },
     container1_2:{
-        flex: 6,
+        flex: 2,
         alignItems:'center',
+
+    
     },
     input:{
+        marginTop:25,
+        marginBottom:25,
         backgroundColor:'rgba(217, 217, 217, 0.5)',
+
         height:55,
-        width:350,
-        borderRadius:5,
+        width:320,
+        borderRadius:0,
+        fontSize:20,
 
         alignSelf:'center',
         borderColor:'black',
@@ -50,8 +60,7 @@ const styles=StyleSheet.create({
         borderLeftWidth:1,
         borderRightWidth:1,
         borderBottomWidth:3,
-        marginLeft:15,
-        marginRight:15
+        
     },
    
     details:{
@@ -69,5 +78,21 @@ const styles=StyleSheet.create({
         
 
     },
+
+    scrollViewContent: {
+        flexGrow: 1,
+        justifyContent: 'space-evenly',
+        alignItems: 'center',
+      },
+      picker: {
+        height: 50,
+         width: 320,
+         borderColor:'#000000',
+         backgroundColor: 'lightgray',
+         marginTop:25,
+         marginBottom:25,
+        
+        
+      },
 })
 export default styles
