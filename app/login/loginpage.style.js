@@ -26,20 +26,24 @@ const styles=StyleSheet.create({
      
     },
     inputText:{
-        height:55,
-        width:320,
-        borderRadius:25,
-        fontSize:20,
-     
+      color:'white',
+      height:55,
+      width:320,
+      borderRadius:25,
+      fontSize:20,
       textAlign:'center',
-      backgroundColor:'black',
+      backgroundColor:'(rgba(217, 217, 217, 0.5)',
+      borderColor:'black',
+      borderTopWidth:1,
+      borderLeftWidth:1,
+      borderRightWidth:1,
+      borderBottomWidth:3,
      
     },
 
     LoginContainer:{
       display:'flex',
       alignItems:'center',
-      justifyContent:'center'
     },
     loginButton:{
     backgroundColor: '#000000',
